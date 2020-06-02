@@ -5,7 +5,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t agupta2020/docker-react -f Dockerfile.dev .
+  - docker build -t agupta2020/docker-react -f ./Dockerfile.txt .
 
 script:
   - docker run -e CI=true agupta2020/docker-react npm run test
