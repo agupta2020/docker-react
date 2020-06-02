@@ -16,7 +16,7 @@ deploy:
   edge: true
   app: "docker"
   env: "Docker-env"
-  bucket_name: "elasticbeanstalk-us-east-2-244793850181"
+  bucket: "elasticbeanstalk-us-east-2-244793850181"
   bucket_path: "docker"
   on:
     branch: master
